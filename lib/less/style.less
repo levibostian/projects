@@ -40,6 +40,10 @@
 @import "variables.less";
 @import "wells.less";
 
+@import "lesshat.less";
+
+@header-height: 300px;
+
 .hover(@background) {
     background: @background;
     &:hover {
@@ -48,15 +52,14 @@
 }
 
 html {
-    height: 100%;
+    //    height: 100%;
 }
 body {
-    background-color: #3f4752; 
-    color: white;
+    color: #3f4752; 
+    background-color: white;
     font-family: 'Roboto', sans-serif;
     height: 100%;
 }
-
 .center-div {
     position: relative;
     top: 50%;
@@ -68,10 +71,30 @@ body {
 }
 .center-hor-vert {
     transform: translate(-50%, -50%);
-    position: absolute;
+    position: absolute; // may not work. try changing it.
     top: 50%;
     left: 50%;
     overflow: auto;
     width: 100%;
     text-align: center;
+}
+
+// site specific LESS
+.site-header { 
+    background-image: url("img/header-background.png");
+    background-size: cover;
+    background-position: 50% 60%;
+    height: @header-height;
+}
+.user-pic {
+    .center-hor-vert;
+    position:relative;
+    height: 200px;
+    width: 200px;
+    background-image: url("img/user-pic.jpg");
+    background-size: 200px 200px;
+    .border-radius(100px);
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
 }
