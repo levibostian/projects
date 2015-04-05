@@ -1,0 +1,23 @@
+{
+    "name": "projects",
+    "homepage": "https://github.com/levibostian/projects",
+    "authors": [
+        "Levi Bostian"
+    ],
+    "description": "List of projects I have done in the past. Fun way to show cool stuff I have made.",
+    "keywords": [
+        "website"
+    ],
+    "license": "MIT",
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "bootstrap": "~3.3.4"
+    }
+}

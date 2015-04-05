@@ -1,1 +1,9 @@
-.emacs*
+*.emacs*
+*~
+node_modules/
+bower_components/
+.sass-cache
+*.css.map
+*.log
+dist/
+style.css
