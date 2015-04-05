@@ -1,0 +1,33 @@
+{
+    "name": "projects",
+    "version": "1.0.0",
+    "description": "List of projects I have done in the past. Fun way to show cool stuff I have made. ",
+    "author": "Levi Bostian <levi.bostian@gmail.com>",
+    "contributors": [
+        {
+            "name": "Levi Bostian",
+            "email": "levi.bostian@gmail.com"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/levibostian/projects"
+    },
+    "bugs": {
+        "url": "https://github.com/levibostian/projects/issues"
+    },
+    "license": "MIT",
+    "engines": {
+        "node": ">= 0.10.0"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.5",
+        "grunt-contrib-compress": "^0.13.0",
+        "grunt-contrib-concat": "~0.4.0",
+        "grunt-contrib-jshint": "~0.10.0",
+        "grunt-contrib-less": "^1.0.0",
+        "grunt-contrib-qunit": "~0.5.2",
+        "grunt-contrib-uglify": "~0.5.0",
+        "grunt-contrib-watch": "~0.6.1"
+    }
+}
