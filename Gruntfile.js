@@ -132,7 +132,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-compress');
 
     // Default task.
-    grunt.registerTask('default', ['jshint', 'compile']);
+    grunt.registerTask('default', ['jshint', 'js-compile', 'compile']);
 
     grunt.registerTask('compile', ['less']);
     grunt.registerTask('js-compile', ['concat', 'uglify']);
