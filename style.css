@@ -7110,9 +7110,12 @@ body {
   top: 50%;
   transform: translateY(-50%);
 }
-.image-center {
+.center-hor {
   display: block;
   margin: auto;
+}
+.center-text {
+  text-align: center;
 }
 .center-hor-vert {
   transform: translate(-50%, -50%);
